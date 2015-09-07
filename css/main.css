@@ -1,10 +1,9 @@
-.container {
-  margin: auto;
-  width: 900px;
-}
-
 #logo {
   float: left;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 #nav-button {
@@ -22,26 +21,36 @@
 #homepage-banner img{
   width: 100%;
 }
+
+.container {
+  width: 100%;
+}
+
+
 #filter {
   margin: auto;
-  width: 500px;
-}
-#filter ul {
-  list-style: none;
-  display
+  width: 80%;
 }
 
-#filter ul li{
+#filter ul li {
   display: inline-block;
 }
+#filter div{
+  margin: auto;
+  width: 40%;
+}
 
+#work {
+  margin: 0 250px;
+  width: 80%;
+}
 .worklist ul {
-  width: 200px;
-  float: left;
+  width: 250px;
+  float:left;
 }
 
 .worklist img {
-  width: 180px;
+  width: 250px;
 }
 
 #work ul li {
