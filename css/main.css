@@ -1,14 +1,22 @@
-#logo {
-  float: left;
-}
-
 a:link {
     text-decoration: none;
 }
 
+#logo {
+  float: left;
+  width: 10px;
+}
+
+
+
 #nav-button {
   float:right;
 }
+
+#nav-button img {
+  width: 20px;
+}
+
 
 #nav-button ul {
   display: block;
