@@ -1,0 +1,58 @@
+.container {
+  margin: auto;
+  width: 900px;
+}
+
+#logo {
+  float: left;
+}
+
+#nav-button {
+  float:right;
+}
+
+#nav-button ul {
+  display: block;
+}
+#nav-button ul li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+#homepage-banner img{
+  width: 100%;
+}
+#filter {
+  margin: auto;
+  width: 500px;
+}
+#filter ul {
+  list-style: none;
+  display
+}
+
+#filter ul li{
+  display: inline-block;
+}
+
+.worklist ul {
+  width: 200px;
+  float: left;
+}
+
+.worklist img {
+  width: 180px;
+}
+
+#work ul li {
+  list-style: none;
+}
+
+#footer {
+  clear: both;
+  width: 100%;
+}
+
+#footer-img {
+  margin: auto;
+}
