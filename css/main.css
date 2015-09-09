@@ -53,9 +53,23 @@ a:link {
   margin: 0 250px;
   width: 80%;
 }
-.worklist ul {
-  width: 250px;
-  float:left;
+.worklist {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+}
+
+.worklist div {
+  align-self: flex-start;
 }
 
 .worklist img {
