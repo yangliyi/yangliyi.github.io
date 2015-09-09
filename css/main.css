@@ -1,3 +1,11 @@
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -73,7 +81,7 @@ a:link {
 }
 
 .worklist img {
-  width: 250px;
+  width: 200px;
 }
 
 #work ul li {
