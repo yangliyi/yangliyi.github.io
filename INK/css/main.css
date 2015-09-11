@@ -1,0 +1,448 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	width: 1180px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/***** main structure *****/
+
+/***** header *****/
+
+/***** tools *****/
+#header #tools {
+	background: #F5F5F5;
+	padding: 10px 0;
+}
+
+#header .login {
+	float: left;
+	text-transform: uppercase;
+}
+
+#header .social-media {
+	float: right;
+}
+
+/***** logo *****/
+#logo {
+	text-align: center;
+	padding: 45px 0;
+}
+
+/***** nav *****/
+#nav {
+	border-top: 1px solid #ccc;
+}
+
+#nav ul {
+	float: left;
+}
+
+#nav li {
+
+}
+
+#nav li a {
+	display: block;
+	color: #333;
+	text-transform: uppercase;
+	padding: 25px 30px;
+}
+
+#nav .search {
+	float: right;
+	padding: 25px 0;
+}
+
+/***** content *****/
+#content {
+	background: #F5F5F5;
+	width: 100%;
+}
+
+/***** banner *****/
+#banner .work {
+	float: left;
+	width: 50%;
+	margin-bottom: 90px;
+}
+
+#banner img {
+	width: 100%;
+}
+#banner .info {
+	background: white;
+	padding: 25px;
+}
+
+#banner .info .content {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#banner .info .header {
+    text-transform: uppercase;
+	color: #87C2B9;
+	font-size: 1em;
+}
+
+#banner .info h2 {
+	font-weight: normal;
+	font-size: 2.4em;
+	margin: 15px 0;
+}
+
+#banner .detail {
+	color: #aaa;
+}
+
+#banner .detail > div {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+/***** show-case *****/
+.show-case img {
+	width: 100%;
+}
+
+.show-case .large {
+	width: 770px;
+}
+
+.show-case .small {
+	width: 370px;
+	font-size: 0.8em;
+}
+
+.show-case .small > .work:first-child {
+	margin-bottom: 25px;
+}
+
+.show-case .small .image {
+	overflow: hidden;
+	height: 245px;
+}
+
+.show-case .small img {
+	height: auto;
+}
+
+.show-case .small .info .content {
+	margin-bottom: 0;
+}
+
+.show-case .small .detail > div {
+	padding: 10px;
+}
+
+.show-case > div:first-child {
+	float: left;
+}
+
+.show-case > div:nth-child(2) {
+	float: right;
+}
+
+.show-case .info {
+	background: white;
+	padding: 25px;
+}
+
+.show-case .info .content {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.show-case .info .header {
+  text-transform: uppercase;
+	color: #87C2B9;
+	font-size: 1em;
+}
+
+.show-case .info h2 {
+	font-weight: normal;
+	font-size: 2.4em;
+	margin: 15px 0;
+}
+
+.show-case .detail {
+	color: #aaa;
+}
+
+.show-case .detail > div {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.show-case .share {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	padding: 8px 0;
+	text-align: center;
+}
+
+.show-case .share li {
+	padding: 0 15px;
+}
+
+/***** button *****/
+.button {
+	margin: 60px 0;
+}
+
+.button .shadow {
+	margin: 20px auto;
+	padding: 10px;
+	width: 180px;
+	height: 50px;
+	background-color: #87C2B9;;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.button .shadow .loadmore {
+	position: relative;
+	top: -35px;
+	left: -20px;
+	width: 180px;
+	height: 50px;
+	background-color: white;
+}
+
+.button .loadmore p {
+	position: relative;
+	top: 15px;
+}
+
+/***** banner spot*****/
+.banner-spot {
+	background-color: white;
+	margin: 100px 0;
+	padding: 10px;
+}
+
+.banner-spot div {
+	padding: 30px 0;
+	margin: 10px auto;
+	width: 1140px;
+	border: 1px solid #95DADB;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/***** spotlight *****/
+.spotlight {
+	background-color: white;
+	margin: 100px 0 50px 0;
+	padding: 10px;
+}
+
+.spotlight div {
+	padding: 20px 0;
+	margin: 10px auto;
+	font-size: 1.4em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/***** highlight *****/
+.highlight {
+	font-size: 0.8em;
+	padding-bottom: 30px;
+}
+
+.highlight img {
+	width: 100%;
+}
+
+.highlight .work {
+	width: 32%;
+}
+
+.highlight > .work:first-child {
+	margin-right: 1%;
+}
+
+.highlight > .work:nth-child(2) {
+	margin: 0 1%;
+}
+
+.highlight > .work:nth-child(3) {
+	margin-left: 1%;
+}
+
+.highlight .image {
+	overflow: hidden;
+	height: 245px;
+}
+
+.highlight img {
+	height: auto;
+}
+
+.highlight .info .content {
+	margin-bottom: 0;
+}
+
+.highlight .detail > div {
+	padding: 10px;
+}
+
+.highlight .work {
+	float: left;
+}
+
+.highlight .info {
+	background: white;
+	padding: 25px;
+}
+
+.highlight .article {
+	background: white;
+	padding: 20px;
+}
+
+.highlight .continue {
+	padding: 10px;
+	color: #87C2B9;
+	text-transform: uppercase;
+}
+
+.highlight .info .content {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.highlight .info .header {
+  text-transform: uppercase;
+	color: #87C2B9;
+	font-size: 1em;
+}
+
+.highlight .info h2 {
+	font-weight: normal;
+	font-size: 2.4em;
+	margin: 15px 0;
+}
+
+.highlight .detail {
+	color: #aaa;
+}
+
+.highlight .detail > div {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.highlight .share {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+	padding: 8px 0;
+	text-align: center;
+}
+
+.highlight .share li {
+	padding: 0 15px;
+}
+
+/***** footer *****/
+#footer .socialnetwork {
+	background-color: #95DADB;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 30px 50px;
+	font-size: 1.4em;
+}
+
+#footer .socialnetwork i {
+	padding: 0 20px;
+}
+
+/***** gallery *****/
+.gallery .photo {
+	float: left;
+	width: 16.66%;
+}
+
+.gallery .photo img {
+	width:100%;
+}
+/***** button *****/
+#footer .button {
+	position: relative;
+	top: -150px;
+	margin: -65px;
+}
+
+#footer .shadow {
+	width: 200px;
+	height: 80px;
+	background-color: #87C2B9;;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#footer .button .shadow .follow-me {
+	position: relative;
+  top: -11px;
+  left: 0px;
+	width: 180px;
+	height: 50px;
+	background-color: white;
+}
+
+#footer .button p {
+	position: relative;
+	top: -5px;
+}
+
+/***** back to top *****/
+.back-to-top {
+	margin: -5px auto;
+	position: relative;
+	top: -25px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	border-radius: 50px;
+	background: white;
+	}
+/***** copyright *****/
+.copyright {
+	margin: -50px;
+	padding: 30px 0;
+	text-align: center;
+	color: #ccc;
+}
+
