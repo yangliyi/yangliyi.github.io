@@ -1,0 +1,11 @@
+@media screen and (min-width: 992px) {
+  #content .wrapper #main {
+    width: 60%;
+  }
+  #content .wrapper #side-bar {
+    width: 32%;
+  }
+  #highlight .wrapper > div {
+    width: 29.33%;
+  }
+}

@@ -4,32 +4,25 @@
 	-ms-box-sizing: border-box; 
 	box-sizing: border-box; 
 }
-
 ul {
 	margin: 0;
 	padding-left: 0;
 	list-style-type: none;
 }
-
 li {
 	display: inline-block;
 }
-
 li a {
 	color: #ccc;
 	text-decoration: none;
 }
-
-
 .wrapper {
 	margin: 0 auto;
 	width: 1180px;
 }
-
 .clearfix {
 	clear: both;
 }
-
 /***** main structure *****/
 
 /***** header *****/
@@ -39,42 +32,31 @@ li a {
 	background: #F5F5F5;
 	padding: 10px 0;
 }
-
 #header .login {
 	float: left;
 	text-transform: uppercase;
 }
-
 #header .social-media {
 	float: right;
 }
-
 /***** logo *****/
 #logo {
 	text-align: center;
 	padding: 45px 0;
 }
-
 /***** nav *****/
 #nav {
 	border-top: 1px solid #ccc;
 }
-
 #nav ul {
 	float: left;
 }
-
-#nav li {
-
-}
-
 #nav li a {
 	display: block;
 	color: #333;
 	text-transform: uppercase;
 	padding: 25px 30px;
 }
-
 #nav .search {
 	float: right;
 	padding: 25px 0;
@@ -402,12 +384,10 @@ li a {
 #footer .button {
 	position: relative;
 	top: -150px;
-	margin: -65px;
 }
 
 #footer .shadow {
-	width: 200px;
-	height: 80px;
+	padding: 10px;
 	background-color: #87C2B9;;
 	text-transform: uppercase;
 	text-align: center;
@@ -417,8 +397,6 @@ li a {
 	position: relative;
   top: -11px;
   left: 0px;
-	width: 180px;
-	height: 50px;
 	background-color: white;
 }
 
@@ -431,13 +409,14 @@ li a {
 .back-to-top {
 	margin: -5px auto;
 	position: relative;
-	top: -25px;
+	top: -14px;
 	width: 60px;
 	height: 60px;
 	text-align: center;
 	border-radius: 50px;
 	background: white;
 	}
+
 /***** copyright *****/
 .copyright {
 	margin: -50px;
