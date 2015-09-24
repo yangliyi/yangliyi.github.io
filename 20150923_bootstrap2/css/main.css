@@ -63,12 +63,16 @@ tr {
   padding: 30px 0;
   border-bottom: 1px solid #ddd;
 }
+.footer-top {
+  padding: 10px;
+}
 
 .footer-top ul li {
   display: block;
 }
 
 .footer-bottom {
+  padding: 10px;
   background-color: #333;
   color: white;
 }
