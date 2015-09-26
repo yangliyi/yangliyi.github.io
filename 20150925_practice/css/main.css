@@ -1,0 +1,203 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+}
+li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.banner {
+  background-color: #BFE896;
+}
+.logo {
+  width: 160px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#content {
+  background-color: #eee;
+}
+
+.quote {
+  background-color: white;
+}
+.quote h4 {
+  color: #95DADB;
+}
+
+.quote .col-xs-10 {
+  margin: 50px;
+  background-color: white;
+}
+.quote .col-xs-10 .description {
+  margin-top: 100px;
+}
+.quote .title{
+  margin-bottom: 30px;
+}
+.quote .article-bottom {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.quote .article-bottom h4 {
+  display: inline-block;
+  text-align: left;
+}
+.quote .article-bottom ul {
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  margin: 10px 0;
+
+}
+/***** highlight *****/
+ .highlight {
+  position: relative;
+  margin: 40px 0 ;
+ }
+ .highlight .shadow {
+  position: relative;
+  background-color: #87C2B9;
+ }
+ .highlight .highlight-main {
+  position: relative;
+  top: -10px;
+  left: -10px;
+ }
+
+/***** category *****/
+.category-right, .category-left {
+  margin: 20px 0;
+  position: relative;
+}
+.category-right .col-xs-8 {
+  position: relative;
+  left: 5px;
+}
+.category-right .col-xs-4 {
+  position: relative;
+  right: 20px;
+  margin-top: 100px;
+}
+.category-right .col-xs-4 .shadow {
+  background-color: #ccc;
+  padding: 10px 10px 10px 10px;
+}
+.category-right .col-xs-4 .description {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+}
+.category-left .col-xs-8 {
+  position: relative;
+  right: 5px;
+}
+.category-left .col-xs-4 {
+  position: relative;
+  margin-top: 100px;
+  left: 40px;
+  z-index:100;
+}
+.category-left .col-xs-4 .shadow {
+  background-color: #ccc;
+  padding: 10px 10px 10px 10px;
+}
+.category-left .col-xs-4 .description {
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+}
+
+/***** button *****/
+.button {
+  margin: 60px 0;
+}
+
+.button .shadow {
+  position: relative;
+  margin: 20px auto;
+  padding: 10px;
+  width: 180px;
+  height: 50px;
+  background-color: #87C2B9;
+  text-transform: uppercase;
+  text-align: center;
+}
+.button .shadow .loadmore {
+  position: relative;
+  top: -18px;
+  left: -18px;
+  width: 180px;
+  height: 50px;
+  background-color: white;
+}
+.button .loadmore p {
+  position: relative;
+  top: 15px;
+}
+
+/***** banner spot *****/
+.banner-spot {
+  background-color: white;
+  margin: 100px 0;
+  padding: 10px;
+}
+.banner-spot div {
+  padding: 20px 0;
+  border: 1px solid #95DADB;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/***** whatever *****/
+.whatever {
+  text-align: center;
+  background-color: white;
+}
+
+.whatever a {
+  color: #95DADB;
+}
+
+.whatever .tweet img {
+  border-radius: 50px;
+}
+
+.whatever .tweets .row {
+  text-align: left;
+}
+.whatever .recent-comment img {
+  border-radius: 100px;
+}
+
+.whatever .recent-comment .row {
+  text-align: left;
+}
+
+
+/***** footer *****/
+footer .socialnetwork {
+  background-color: #95DADB;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px 50px;
+  font-size: 1.4em;
+}
+footer .socialnetwork i {
+  padding: 0 20px;
+}

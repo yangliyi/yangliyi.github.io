@@ -1,0 +1,51 @@
+#mario {
+  width: 65px;
+  height: 90px;
+  margin: 0 auto;
+  background: url('img/mario-sprite.jpg');
+  background-position: -291px -54px;
+  animation-name: sprite;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+}
+
+@keyframes sprite {
+    0%   {background-position: -291px -54px;}
+    25%  {background-position: -360px -54px;}
+    50%  {background-position: -426px -54px;}
+    75%  {background-position: -490px -54px;}
+    100%  {background-position: -565px -54px;}
+}
+
+
+#mario-small-jump {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background: url('img/mario-sprite.jpg');
+  background-position: -291px -5px;
+  animation-name: jump;
+  animation-duration: 3s;
+  animation-iteration-count: ;
+}
+
+@keyframes jump {
+    0%   {background-position: -291px -5px;}
+    25%  {background-position: -365px -5px;}
+    50%  {background-position: -431px -5px;}
+    75%  {background-position: -500px -5px;}
+    100% {background-position: -575px -5px;}
+}
+
+
+#mario-jump {
+  width: 50px;
+  height: 80px;
+  margin: 0 auto;
+  background: url('img/mario-sprite.jpg');
+  background-position: -291px -147px;
+}
+
+#mario-jump:hover {
+  background-position: -359px -147px;
+}
